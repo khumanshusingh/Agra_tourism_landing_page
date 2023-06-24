@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(SAMAN___.TTF);
+}
+
+.hero {
+  background-image: url("tajmahal.jpg");
+  background-size: cover;
+  filter: brightness(75%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#headline {
+  font-family: myFirstFont;
+  font-size: 6rem;
+  color: rgb(31, 29, 26);
+  text-shadow: 0 0 30px wheat;
+}
+button {
+  cursor: pointer;
+  background-color: antiquewhite;
+  border: none;
+  padding: 16px 32px;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: 0 0 10px white;
+}
+button:hover {
+  background-color: rgb(159, 132, 99);
+}
+#tagline {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+.top-activies {
+  background-color: rgb(129, 91, 41);
+}
+.monument {
+  width: 350px;
+}
+.about {
+  padding-top: 1rem;
+  text-align: center;
+  height: 100vh;
+  background-color: beige;
+}
+.about-heading {
+  font-size: 5rem;
+}
+.about-paragraph {
+  margin-top: 3rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  text-align: justify;
+}
+.monument_pics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 8rem 0 8rem;
+  padding-top: 3rem;
+}
+.pics {
+  width: 300px;
+}
+.plan_trip {
+  text-align: center;
+  padding-top: 2rem;
+  height: 100vh;
+}
+.itenary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 8rem;
+  margin-right: 8rem;
+}
+.itenary img {
+  width: 200px;
+  margin-top: 3rem;
+  border-radius: 50%;
+}
+
+#ticket {
+  margin-top: 3rem;
+}
+footer {
+  background-color: rgb(47, 47, 47);
+  color: whitesmoke;
+  padding: 2rem;
+  text-align: center;
+}
